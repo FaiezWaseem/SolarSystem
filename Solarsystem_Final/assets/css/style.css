@@ -374,6 +374,116 @@ width: 50%;
 height: 15rem; 
 }
 .comet .comet-content .comet-box .img img{
-width: 100%;
-height: auto;
+width: 80%;
+height: 80%;
 }
+/* scientific Devlopment */
+.entertainment{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.entertainment .heading{
+  margin: 20px 20px;
+}
+.entertainment .news{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 5px;
+  width: 320px;
+  height: 320px;
+  background-color: rgba(128, 128,128, .07) ;
+  border: 1px  solid grey;
+
+}
+.entertainment .news h3{
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.entertainment .news p{
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.entertainment .news .image img{
+  width: 250px;
+  height: 150px;
+}
+#btn{
+  position: absolute;
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+#btn #see-more{
+
+  background-color: transparent;
+  border: solid initial;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+#btn #see-more:hover{
+   transition: all .6s linear;
+  transform:  scale(1.1);
+}
+.h1-scientific{
+  margin: 30px 0px;
+  text-align: center;
+  font-size: 2rem;
+}
+@media screen and (max-width: 400px){
+  .h1-scientific{
+    font-size: 1.3rem;
+  }
+  
+  }
+  
+  /* footer */
+footer{
+  margin: 100px 0px 0px 0px;
+  background-color: black;
+}
+.label{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+.label .box1,.box2,.box3,.box4 {
+  margin: 10px;
+  color: #fff;
+  text-align: center;
+}
+.label .box1 ul li a,.box2 ul li a,.box3 ul li a,.box4 ul li a{
+text-decoration: none;
+color: #fff;
+}
+.label .box1 ul li:hover, .box2 ul li:hover,.box3 ul li:hover,.box4 ul li:hover{
+  color: crimson;
+}
+@media screen and (max-width: 400px){
+  .label .box1,.box2, .box3 {
+    margin: 10px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+  }
+  .label .box1 ul li a,.box2 ul li a{
+  text-decoration: none;
+  color: #fff;
+  }
+  .label .box1 ul li a:hover, .box2 ul li a:hover,.box3 ul li a:hover{
+    color: crimson;
+  }
+  }
