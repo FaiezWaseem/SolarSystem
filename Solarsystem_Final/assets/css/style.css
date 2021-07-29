@@ -300,7 +300,7 @@ section .heading h1{
     flex-wrap: wrap;
     margin: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .card{
@@ -409,6 +409,7 @@ height: 80%;
   justify-content: center;
   text-align: center;
   margin-bottom: 15px;
+  color: white;
 }
 .entertainment .news .image img{
   width: 250px;
